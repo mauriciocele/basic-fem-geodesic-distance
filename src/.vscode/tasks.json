@@ -1,0 +1,33 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Build with Clang",
+            "type": "shell",
+            "command": "clang++",
+            "args": [
+                "-std=c++17",
+                "-stdlib=libc++",
+                "-framework", "OpenGL", //linker option
+                "-framework", "GLUT",   //linker option
+                "-I/Users/maurlope/workplace/github/eigen-3.4.0/",
+                "-g",
+                //"-mavx",
+                //"-Ofast",
+                //"-march=native",
+                //"-funroll-loops",
+                //"-ffast-math",
+                "${workspaceFolder}/GA/*.cpp",
+                "${workspaceFolder}/HalfEdge/*.cpp",
+                "${workspaceFolder}/*.cpp",
+                "-o",
+                "fembasic2d.out",
+                "--debug",
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        }
+    ]
+}
