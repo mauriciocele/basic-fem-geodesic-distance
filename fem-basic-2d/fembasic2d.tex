@@ -579,15 +579,15 @@ The grandient in the reference triangle is:
 
 So
 \begin{eqnarray}
-	\nabla \psi_1(\vec U) = (-1, -1)
-	\nabla \psi_2(\vec U) = (1, 0)
-	\nabla \psi_3(\vec U) = (0, 1)
+	\nabla \psi_1(\vec U) = (-1, -1) \nonumber\\
+	\nabla \psi_2(\vec U) = (1, 0) \nonumber\\
+	\nabla \psi_3(\vec U) = (0, 1) \nonumber
 \end{eqnarray}
 
 So
 \begin{eqnarray}
-	\nabla U(\vec X) = U^1 (-1, -1) + U^2 (1, 0) + U^3 (0, 1)
-	\nabla U(\vec X) = (U^2 - U^1, U^3 - U^1)
+	\nabla U(\vec X) = U^1 (-1, -1) + U^2 (1, 0) + U^3 (0, 1) \nonumber\\
+	\nabla U(\vec X) = (U^2 - U^1, U^3 - U^1) \nonumber
 \end{eqnarray}
 
 Gradient in the ``physical'' triangle $k$ is:
@@ -654,13 +654,14 @@ Which can be discretized as usual by definig $\nabla \vartheta(\vec X) = \sum_i 
 $A(\vec X) = \bigcup_k { A_k(\vec X) }$ for all triangles $k$:
 \begin{eqnarray}
 	\nabla \cdot A_i = - \int_{\Omega} { \sum_i { \nabla \varphi_i } \cdot A_k \ dA } \nonumber \\
-	\nabla \cdot A_i = \sum_i { - \int_{\Omega} { \nabla \varphi_i \cdot A_k \ dA } } \nonumber
+	\nabla \cdot A_i = - \sum_i { \int_{\Omega} { \nabla \varphi_i \cdot A_k \ dA } } \nonumber
 \end{eqnarray}
 
-The integral should be evaluated at triangle nodes, so quadrature rule reduces to:
+Since $A_k$ is constant per triangle, the integral should be evaluated at triangle nodes and summation 
+goes per triangle-set i.e., every triangle incident to node $i$. Quadrature rule reduces to:
 
 \begin{eqnarray}
-	\int_{\Omega} { \nabla \varphi_i \cdot A_k \ dA } = area_k (B^{-*T} (-1, -1) + B^{-*T} (1, 0) + B^{-*T} (0, 1) ) \cdot A_k  \nonumber
+	\int_{\Omega} { \nabla \varphi_i \cdot A_k \ dA } = \sum_k { - area_k (B^{-*T} P_i \cdot A_k)}  \nonumber\\
 \end{eqnarray}
 
 \section{Implementation}

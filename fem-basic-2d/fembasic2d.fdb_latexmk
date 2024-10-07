@@ -1,14 +1,14 @@
 # Fdb version 4
-["bibtex fembasic2d"] 1728325693.43835 "fembasic2d.aux" "fembasic2d.bbl" "fembasic2d" 1728325788.03379 0
+["bibtex fembasic2d"] 1728325693.43835 "fembasic2d.aux" "fembasic2d.bbl" "fembasic2d" 1728331585.19685 0
   "./fembasic2d.bib" 1727971706.54674 60126 5b73dc47aa9d7b8da5d066f7cf6669c9 ""
   "/usr/local/texlive/2024/texmf-dist/bibtex/bst/base/abbrv.bst" 1292289607 20329 b5fed53e10044d0f8112183785c759b1 ""
-  "fembasic2d.aux" 1728325787.74594 2486 0e7d3c645cb1516dca3a5cd2794e9390 "pdflatex"
+  "fembasic2d.aux" 1728331584.87647 2486 0e7d3c645cb1516dca3a5cd2794e9390 "pdflatex"
   (generated)
   "fembasic2d.bbl"
   "fembasic2d.blg"
   (rewritten before read)
-["pdflatex"] 1728325787.15569 "/Volumes/workplace/github/basic-fem-geodesic-distance/fem-basic-2d/fembasic2d.tex" "fembasic2d.pdf" "fembasic2d" 1728325788.03395 0
-  "/Volumes/workplace/github/basic-fem-geodesic-distance/fem-basic-2d/fembasic2d.tex" 1728325786.92635 28302 8fc99c003c295aea7bef1a87c6ddfe88 ""
+["pdflatex"] 1728331584.22629 "/Volumes/workplace/github/basic-fem-geodesic-distance/fem-basic-2d/fembasic2d.tex" "fembasic2d.pdf" "fembasic2d" 1728331585.19701 0
+  "/Volumes/workplace/github/basic-fem-geodesic-distance/fem-basic-2d/fembasic2d.tex" 1728331583.91557 28446 170e240d5775e3f2a1eb3c60bd137a13 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1246382020 1004 54797486969f23fa377b128694d548df ""
   "/usr/local/texlive/2024/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm" 1246382020 988 bdf658c3bfc2d96d3c8b02cfc1c94c20 ""
@@ -148,9 +148,9 @@
   "/usr/local/texlive/2024/texmf-var/web2c/pdftex/pdflatex.fmt" 1727086385 8221429 6d3e3c7f322870ed886ddc11f0a80be4 ""
   "/usr/local/texlive/2024/texmf.cnf" 1710266656 577 e590dabc9e28c5b61546e15f63eebcdf ""
   "birkjour.cls" 1705617857.82193 64245 2e812c2cacdfcd9348c632345e528a94 ""
-  "fembasic2d.aux" 1728325787.74594 2486 0e7d3c645cb1516dca3a5cd2794e9390 "pdflatex"
+  "fembasic2d.aux" 1728331584.87647 2486 0e7d3c645cb1516dca3a5cd2794e9390 "pdflatex"
   "fembasic2d.bbl" 1728325693.59852 436 69fe009928bd17457f7889e3e6ffaa92 "bibtex fembasic2d"
-  "fembasic2d.tex" 1728325786.92635 28302 8fc99c003c295aea7bef1a87c6ddfe88 ""
+  "fembasic2d.tex" 1728331583.91557 28446 170e240d5775e3f2a1eb3c60bd137a13 ""
   (generated)
   "fembasic2d.aux"
   "fembasic2d.log"
