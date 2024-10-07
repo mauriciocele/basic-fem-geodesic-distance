@@ -1,0 +1,18 @@
+\begin{thebibliography}{1}
+
+\bibitem{Langtangen2014}
+H.~P. Langtangen.
+\newblock Introduction to finite element methods.
+\newblock 2014.
+
+\bibitem{Basic2DHeatEquationFEM}
+M.~C. Lopez~Belon.
+\newblock Project on github.
+\newblock Available at {https://github.com/mauriciocele/basic-fem-heat-2d}, 2024.
+
+\bibitem{Sayas2015}
+F.-J. Sayas.
+\newblock A gentle introduction to the finite element method.
+\newblock 2015.
+
+\end{thebibliography}
